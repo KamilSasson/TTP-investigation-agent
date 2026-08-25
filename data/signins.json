@@ -1,0 +1,43 @@
+{
+  "user_baselines": {
+    "dana.levi@corp.local": {
+      "known_countries": ["Israel"],
+      "known_devices": ["DESKTOP-DL01", "iPhone-DanaL"],
+      "known_ip_ranges": ["203.0.113.0/24"],
+      "corporate_vpn_ranges": ["198.51.100.0/24"],
+      "typical_login_hours_local": "07:00-19:00",
+      "total_signins_last_year": 842
+    },
+    "omer.katz@corp.local": {
+      "known_countries": ["Israel"],
+      "known_devices": ["LAPTOP-OK-CORP", "iPhone-OmerK"],
+      "known_ip_ranges": ["203.0.113.0/24"],
+      "corporate_vpn_ranges": ["198.51.100.0/24"],
+      "typical_login_hours_local": "08:00-18:00",
+      "total_signins_last_year": 611
+    }
+  },
+  "events": [
+    {
+      "event_id": "sig-1001",
+      "user": "dana.levi@corp.local",
+      "timestamp": "2026-07-24T21:14:00Z",
+      "country": "Germany",
+      "ip_address": "45.83.12.199",
+      "device_id": "UNKNOWN-DEVICE-88F3",
+      "result": "success",
+      "scenario": "malicious"
+    },
+    {
+      "event_id": "sig-2001",
+      "user": "omer.katz@corp.local",
+      "timestamp": "2026-07-24T09:02:00Z",
+      "country": "Germany",
+      "ip_address": "198.51.100.44",
+      "device_id": "LAPTOP-OK-CORP",
+      "result": "success",
+      "scenario": "legitimate",
+      "note": "Employee traveling for a conference, connected via corporate VPN exit node, known device"
+    }
+  ]
+}

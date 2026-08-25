@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "event_id": "id-1001",
+      "user": "dana.levi@corp.local",
+      "timestamp": "2026-07-24T21:18:00Z",
+      "action": "mfa_method_added",
+      "detail": "New authenticator app registered, 4 minutes after sign-in sig-1001",
+      "scenario": "malicious"
+    },
+    {
+      "event_id": "id-1002",
+      "user": "dana.levi@corp.local",
+      "timestamp": "2026-07-24T21:26:00Z",
+      "action": "role_assigned",
+      "detail": "Assigned 'Global Reader' privileged role",
+      "scenario": "malicious"
+    },
+    {
+      "event_id": "id-2001",
+      "user": "omer.katz@corp.local",
+      "timestamp": "2026-07-24T09:05:00Z",
+      "action": "none",
+      "detail": "No identity changes following sign-in sig-2001",
+      "scenario": "legitimate"
+    }
+  ]
+}

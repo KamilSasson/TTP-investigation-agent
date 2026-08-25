@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "event_id": "cl-1001",
+      "user": "dana.levi@corp.local",
+      "timestamp_window": "2026-07-24T21:20:00Z/2026-07-24T21:40:00Z",
+      "action": "bulk_document_download",
+      "count": 340,
+      "resource": "SharePoint - Finance/Contracts",
+      "scenario": "malicious"
+    },
+    {
+      "event_id": "cl-2001",
+      "user": "omer.katz@corp.local",
+      "timestamp_window": "2026-07-24T09:10:00Z/2026-07-24T09:15:00Z",
+      "action": "document_access",
+      "count": 3,
+      "resource": "SharePoint - Team/Conference Prep",
+      "scenario": "legitimate"
+    }
+  ]
+}

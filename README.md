@@ -1,4 +1,4 @@
-# TTP-Aware Investigation Agent (Prototype)
+# TTP Investigation Agent (Prototype)
 
 A small, focused prototype demonstrating an agentic investigation workflow for a
 suspicious sign-in scenario — built to explore the intersection of AI tool-use and
